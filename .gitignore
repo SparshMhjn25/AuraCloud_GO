@@ -1,0 +1,22 @@
+# Compiled binaries & archives
+*.exe
+*.zip
+auracloud
+auracloud-*
+
+# Runtime vault data, SQLite databases, salts, and Tailscale node state
+.auracloud_data/
+.auracloud_backup/
+*.db
+*.db-wal
+*.db-shm
+*.salt
+
+# Temporary benchmark & test artifacts
+bench_*.bin
+restored_sample.dat
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
